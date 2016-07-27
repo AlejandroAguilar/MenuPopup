@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MenuContextoPopup</string>
+    <string name="menu_about">About</string>
+    <string name="menu_settings">Setings</string>
+
+    <string name="texto_about">About</string>
+    <string name="texto_settings">Settings</string>
+</resources>
