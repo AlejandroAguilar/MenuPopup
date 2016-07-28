@@ -41,12 +41,16 @@ public class MainActivity extends AppCompatActivity {
             case R.id.mAbout:
                     Intent intent = new Intent(this, ActivityAbout.class);
                     startActivity(intent);
-                break;
+            break;
 
             case R.id.mSettings:
                     Intent i = new Intent(this, ActivitySettings.class);
                     startActivity(i);
-                break;
+            break;
+
+            case R.id.mRefresh:
+                Toast.makeText(this, "Refresh", Toast.LENGTH_SHORT).show();
+            break;
 
         }
 
